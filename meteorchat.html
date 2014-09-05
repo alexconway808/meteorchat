@@ -1,0 +1,29 @@
+<head>
+  <title>meteorchat</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor Chat!</h1>
+
+  <!-- {{> hello}} -->
+
+  {{> chatarea}}
+
+</body>
+
+<template name="chatarea">
+  
+  <div>
+      Name: <input id="name" type="text" name="user" value="">
+  </div>
+
+  <div>
+      Chats: <input id="chats" type="text" value="">
+  
+  </div>
+  
+  <button>Send</button>
+
+  <div id="chatLog">Chat Log</div>
+
+</template>
