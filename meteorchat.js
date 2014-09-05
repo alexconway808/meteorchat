@@ -13,10 +13,10 @@ if (Meteor.isClient) {
       // increment the counter when button is clicked
       // Session.set("counter", Session.get("counter") + 1);
       var name = $('#name').val();
-      console.log(name);
+      // console.log(name);
 
       var chats = $('#chats').val();
-      console.log(chats);
+      // console.log(chats);
 
       $('#chatLog').append('<li>' + name + ' : ' + chats +'</li>');
     }
